@@ -1,6 +1,7 @@
 // Creates and returns a new dancer object that can step
 //func - pseudo
    // remove dancer
+
 var Dancer = function(top, left, timeBetweenSteps) {
   this.timeBetweenSteps = timeBetweenSteps;
   this.top = top;
