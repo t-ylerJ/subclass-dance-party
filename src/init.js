@@ -18,7 +18,7 @@ $(document).ready(function() {
     var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
     // var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
     //window is root element in DOM
-    //different accesses for 
+    //different accesses for
 
     // get the maker function for the kind of dancer we're supposed to make
     var dancerMakerFunction = window[dancerMakerFunctionName];

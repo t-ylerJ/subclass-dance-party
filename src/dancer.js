@@ -3,7 +3,8 @@
    // remove dancer
 
 var Dancer = function(top, left, timeBetweenSteps) {
-  this.$node = $('<span class="dancer"></span>');
+  // this.$node = $('<span class="dancer BlinkyDancer"></span>');
+  this.$node = $('<span class="BlinkyDancer"></span>');
   this.timeBetweenSteps = timeBetweenSteps;
   this.step();
   this.setPosition(top, left);
